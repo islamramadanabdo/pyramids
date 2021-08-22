@@ -1,0 +1,65 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #F1F1F1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Signin {
+  width: 600px;
+  margin: 150px auto;
+  font-size: 16px;
+  text-align: center;
+}
+.Signin-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Signin-header {
+  background:#CCCCCC;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.Signin-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+.Signin-container input{
+    width: 170px;
+    padding:10px;
+}
+.btn{
+    padding:10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CCCCCC;
+}
+
+li {
+  float: left;
+}
+
+li a {
+    margin-left: 10px;
+  display: block;
+  color: #555555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555555;
+  color:#F1F1F1;
+}

@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2021, 2:27:08 PM
+    Author     : HP
+*/
+.container .row .col-md-12 .section-title { 
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+.section-title > p {
+  color: #4a4a4a;
+  line-height: 18px;
+  margin-top: 35px;
+  margin-bottom: 75px;
+}
+
+.our-room-show .single-room {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 2px solid #b8b8b8;
+  margin: 5px 0;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.our-room-show .single-room {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+        
+}
+.our-room-show .single-room .room-img img
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+        
+}
+.single-room .room-desc {
+  padding: 34px 20px 25px;
+  position: relative;
+  text-align: left;
+  widows: 100%;
+  height: 100%;
+      
+}
+.room-desc .room-book {
+  display: inline-block;
+  float: right;
+  margin-top: -52px;
+}
+.single-room.mb-70 {
+  margin-bottom: 70px;
+}
+.room-desc .room-book a,.static2 .services-desc-inner .room-book > a:hover {
+    background: #4a4a4a none repeat scroll 0 0;
+    color: #fff;
+}
+.room-desc .room-book a, .static2 .services-desc-inner .room-book > a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.room-desc .room-book a {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 400;
+}
+.room-desc .room-book a:hover,.static2 .services-desc-inner .room-book > a {
+    background: #3ac4fa none repeat scroll 0 0;
+    color: #fff
+}
+
+.room-section .single-room .room-desc {
+  background: #f1f1f1 none repeat scroll 0 0;
+}
+.room-desc .room-name h3 {
+  color: #4a4a4a;
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+.room-rent > h5 {
+    color: #6d6d6d;
+    text-transform: capitalize;
+}
+.room-rent > h5 span {
+  font-family: "Poppins",sans-serif;
+  font-size: 12px;
+}
+.our-room-show .single-room:hover,.single_news-post:hover {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.35);
+}
+.carousel-list .col-md-4 {
+  width: 33%;
+  display: inline-block;
+}
+.carousel-list.owl-theme .owl-controls .owl-page span,.our-room-list.owl-theme .owl-controls .owl-page span,.our-news-list.owl-theme .owl-controls .owl-page span,.team_brand.style2.owl-theme .owl-controls .owl-page span {
+    background: #cbcbcb none repeat scroll 0 0;
+    height: 8px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    width: 26px;
+}
+.carousel-list.owl-theme .owl-controls .owl-page.active span,.our-room-list.owl-theme .owl-controls .owl-page.active span,.our-news-list.owl-theme .owl-controls .owl-page.active span,.team_brand.style2.owl-theme .owl-controls .owl-page.active span {
+    background: #3ac4fa none repeat scroll 0 0;
+    width: 40px;
+}
+.our-room .our-room-list.owl-theme .owl-controls,.our-room .our-news-list.owl-theme .owl-controls,.team_brand.style2.owl-theme .owl-controls {
+  margin-top: 30px;
+  text-align: center;
+}
+.our-room .carousel-list.owl-theme .owl-controls{
+  margin-top: 40px;
+}
+.owl-pagination.owl-theme .owl-controls {
+  margin-top: 40px;
+}
+.our-room-list .single-room.mb-80 {
+  margin-bottom: 75px;
+}
+#contact
+{
+    width: 100%;
+    height: 400px;
+    background-color: #b5d6d0;
+
+}
+
+#about
+{
+    width: 100%;
+    height: 400px;
+    background-color: #bbb;
+
+}

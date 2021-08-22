@@ -1,0 +1,95 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #CCCCCC;
+}
+*{
+    box-sizing: border-box;
+}
+
+#main{
+    padding:5px;
+    background-color: #CCCCCC;
+}
+#main h1
+{
+    text-align: center;
+    
+}
+#main ul{
+    list-style: none;
+}
+#main a{
+    text-decoration: none;
+}
+#main ul li
+{
+    margin: 0px;
+    display: flex;
+}
+.showcase-box{
+    width:430px;
+    height: 250px;
+    box-shadow: 5px 15px 30px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin:0px 20px 10px 20px;
+    overflow: hidden;
+}
+.showcase-box img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.showcase-heading{
+    padding-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #CCCCCC;
+}
+.cs-hidden{
+    overflow: visible !important;
+}
+
+
+.container
+{
+    widows: 100%;
+    height: auto;
+    background-color: #f2dede;
+    padding: 20px;
+        
+    
+}
+.container .content
+{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: #dff7ef;
+    position: relative;
+    font-style: italic;
+        
+}
+ 
+.container .content button
+{
+     background-color: #c8a7a7bf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.container .content button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+ }
